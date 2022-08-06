@@ -1,245 +1,529 @@
--<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Nekha Radha Das</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script> 
-$(document).ready(function(){
-  $("button").click(function(){
-    $("div").animate({left: '250px'});
-  });
-});
-</script> 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="theme.css">
+  <link href="product.css" rel="stylesheet">
 
-<style>
-body {font-family: "Raleway", sans-serif}
-h1,h2,h3,h4,h5,h6 {font-family: "font-family: 'Playfair Display', serif;"}
-</style>
-</head>
-<body class="w3-light-grey w3-content" style="max-width:1600px">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="theme.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.101.0">
+  <title>Product example · Bootstrap v5.2</title>
 
-<!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
-  <div class="w3-container">
-    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
-      <i class="fa fa-remove"></i>
-    </a>
-    <img src="image/nekha.jpg" style="width:45%;" class="w3-round"><br><br>
-
-   
-  </div>
-  <div class="w3-bar-block">
-    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
-    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
-  </div>
-  <div class="w3-panel w3-large">
-    
-   
-   
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-    
-    <i class="fa fa-envelope w3-hover-opacity"></i>
-
-    
-  </div>
-</nav>
-
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
-
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:300px">
-
-  <!-- Header -->
-  <header id="portfolio">
-    <a href="#"><img src="image/nekha.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
-    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
-
-    
-    <div class="w3-container">
-    <h1 class="h1 w3-text-teal">Hello ! I am Nekha<b></h1>
-        <h4> " I wanted be an interior designer and ux is like interior design but for digital products. It validates whether or not you are building the right product in the first place."</h4>
-       
-       
-       <p class="w3-text-size-small"><i>I focus on creative digital design, UX research based on HCI and high fidelity prototypes. Someone who loves oil on canvas, outside of design</i></p> 
-    <div class="w3-section w3-bottombar w3-padding-16">
-    
-      <button class="w3-button w3-black"></i>Home</button>
-      <button class="w3-button w3-white w3-hide-small"></i>About me</button>
-      <button class="w3-button w3-white w3-hide-small"></i>Resume</button>
-
-      <button class="w3-button w3-white w3-hide-small"></i>Contact</button>
-    </div>
-    </div>
-  </header>
-  
-  <!-- First Photo Grid-->
-  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
-
-<hr>
-    <h4><b>About Me</b></h4>
-    <p>I am a Toronto based UX designer who is working on creating marvelous feature-rich high fidelity designs.
-
-        I believe that nothing thrives unless it simplifies human effort, and only the user holds the reigns to that verdict. That’s where my design realm exists: human-centric and user-driven. And there lies my goal─ to design for my users intuitively and interactively.
-        
-        From the inception of my concept, I realized that design was my calling. That is the prime reason why I put my heart and soul into each new project, and this intense passion for user-centric design is reflected in myhighly varied portfolio which I try to make exceptional. For a better idea of this designer’s style and capabilities, please have a look at their past work below.</p>
-    <hr>
-  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
-    <h4><b>My Projects</b></h4>
-
-
-
-   
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="image/svast.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>
-         Svast</b></p>
-        <p>Svast is a global digital exchange for patients, hospitals, insurance providers, logistics, pharmacies and other care delivery organizations.</p>
-      
-    </div>
-        
-       
-      
-    </div>
-    
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="image/pickmykid.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>
-            Pick my kid</b></p>
-        <p>Helps  parents to pick  their kids from a specified location like daycare/school and will drop at your home, office, or any
-
-            other location of parent's choice..</p>
-      </div>
-    </div>
-    <div class="w3-third w3-container">
-      <img src="image/cfia.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
-      
-      <div class="w3-container w3-white">
-       
-        <p><b>
-          <a class="animate"  href="index1.html">View page</a></b></p>
-        
-        <p><b>CFIA Redesign</b></p>
-        <p>PRedesigning CFIA is a personal project so, this case study is not affiliated with or endorsed by Government  of Canadian Food Inspection Agency.</p>
-      </div>
-    </div>
-  </div>
-  
-  <!-- Second Photo Grid-->
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="image/nonprofit-home.png"Norway style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Non profit Redesign 
-        </b></p>
-        <p>Non profit website the challenge was to improve the experience of navigation for the user with special needs through the website and make it easier for the organization to achieve its business objectives..</p>
-      </div>
-    </div>
-    
-
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/product/">
 
   
-    <div class="w3-container w3-padding-large" style="margin-bottom:32px">
 
-    <h4><b>Technical Skills</b></h4>
-    <!-- Progress bars / Skills -->
-    <p>UX Research : Data Analysis, Persona,User Journey, Hypothesis, Card Sorting,
-        A/B Testing & Experiment,User flows, Concept Sketches, Wireframes & Mockups, Motion
-        Design, Style guide, Sitemap,Prototyping in Sketch, Figma or Invison</p>
-    <div class="w3-grey">
-      <div class="w3-container w3-blue-grey w3-padding w3-center" style="width:95%">95%</div>
-    </div>
-   
-    <p>Collaboration & Tools : Organizing workshops, Facilitating Design Critique,
-        Communicative,Figma, Figjam, Adobe XD, Sketch, Invision,Miro, Kanban, Jira, Google
-        forms, Surveymonkey, Trello</p>
-    <div class="w3-grey">
-      <div class="w3-container w3-blue-grey w3-padding w3-center" style="width:95%">95%</div>
-    </div>
-    <p>Web Design : HTML & CSS</p>
-    <div class="w3-grey">
-      <div class="w3-container w3-blue-grey w3-padding w3-center" style="width:75%">75%</div>
-    </div>
-    <p>
-      <button class="w3-button w3-black w3-padding-large w3-margin-top w3-margin-bottom">
-        <i class="fa fa-download w3-margin-right"></i>Download Resume
-      </button>
-    </p>
-    <hr>
-    
-    
   
-  <!-- Contact Section -->
-  <div class="w3-container w3-padding-large w3-blue-gray">
-    <h4 id="contact"><b>Contact Me</b></h4>
-    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
-      <div class="w3-third w3-black">
-        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
-        <p>nekhadev@gmail.com</p>
-      </div>
-      <div class="w3-third w3-teal">
-        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
-        <p>Toronto,Ontario</p>
-      </div>
+
+<link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+
+
+
+
+
+
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+      <meta name="generator" content="Hugo 0.101.0">
      
-    </div>
-    <hr class="w3-opacity">
-    <form action="/action_page.php" target="_blank">
-      <div class="w3-section">
-        <label>Name</label>
-        <input class="w3-input w3-border" type="text" name="Name" required>
-      </div>
-      <div class="w3-section">
-        <label>Email</label>
-        <input class="w3-input w3-border" type="text" name="Email" required>
-      </div>
-      <div class="w3-section">
-        <label>Message</label>
-        <input class="w3-input w3-border" type="text" name="Message" required>
-      </div>
-      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
-    </form>
-  </div>
-
+  
+      <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/headers/">
   
       
+  
+      
+  
+  <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  
+      <!-- Favicons -->
+  <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+  <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+  <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+  <meta name="theme-color" content="#712cf9">
+  
+  
+</head>
+  
+  <!-- Custom styles for this template -->
+  <link href="headers.css" rel="stylesheet">
+</head>
+<body>
+  
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+<symbol id="bootstrap" viewBox="0 0 118 94">
+  <title>Bootstrap</title>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"></path>
+</symbol>
+<symbol id="home" viewBox="0 0 16 16">
+  <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+</symbol>
+<symbol id="speedometer2" viewBox="0 0 16 16">
+  <path d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4zM3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.389.389 0 0 0-.029-.518z"/>
+  <path fill-rule="evenodd" d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10zm8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3z"/>
+</symbol>
+<symbol id="table" viewBox="0 0 16 16">
+  <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm15 2h-4v3h4V4zm0 4h-4v3h4V8zm0 4h-4v3h3a1 1 0 0 0 1-1v-2zm-5 3v-3H6v3h4zm-5 0v-3H1v2a1 1 0 0 0 1 1h3zm-4-4h4V8H1v3zm0-4h4V4H1v3zm5-3v3h4V4H6zm4 4H6v3h4V8z"/>
+</symbol>
+<symbol id="people-circle" viewBox="0 0 16 16">
+  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+</symbol>
+<symbol id="grid" viewBox="0 0 16 16">
+  <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+</symbol>
+</svg>
+
+<main>
+<h1 class="visually-hidden">Headers examples</h1>
+
+
    
 
-  
 
-  </div>
-  </footer>
-  
-  <div class="w3-black w3-center w3-padding-24"> Feel free to reach out via email
-
-    
-    
-    Thanks for stopping by!</div>
-
-<!-- End page content -->
+<div class="b-example-divider"></div>
+<div class="container">
+  <header class="d-flex justify-content-center py-3">
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">About Me</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Resume</a></li>
+    </ul>
+  </header>
 </div>
 
-<script>
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
-}
- 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
-}
-</script>
+<div class="b-example-divider"></div>
 
+<main class="container">
+  <div class="p-4 p-md-5 mb-4 rounded text-bg-success">
+    <h1 class="display-4 fst-italic">
+      Redesigning CFIA website</h1>
+    <div class="col-md-10 px-0">
+   <img class="col-md-12 px-0" src=" image/Cfia1.png">
+   
+      
+      <p class="lead my-1">
+        What is CFIA ?</p>
+        <p class="lead my-1">
+          Canadian Food Inspection Agency is dedicated to safeguarding food, animals and plants, which enhances the health and well-being of Canada's people, environment and economy.</p>
+          <p>1M+ visitors per month</p>
+      <p class="lead mb-0"><a href="#" class="text-white">
+
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.101.0">
+  
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/pricing/">
+
+    
+
+    
+
+<link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#712cf9">
+
+
+    <style>
+             
+  .card{
+    display: flex;
+    
+  }
+        
+  
+        .b-example-divider {
+          height: .1rem;
+          background-color: rgb(2, 76, 33);
+
+          border-width: 1px 0;
+          box-shadow: inset 0 .5em 1.5em rgba(3, 84, 13, 0.1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+  
+       
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        margin-left: 0%;
+        padding-left: 10px;
+        font-size: 20px;
+        height: 2rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      .media-body{
+
+
+
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="pricing.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="check" viewBox="0 0 16 16">
+    <title>Check</title>
+    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+  </symbol>
+</svg>
+
+<div class="container py-3">
+  <header>
+   
+
+      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+        <a class="me-3 py-2 text-dark text-decoration-none" href="#"></a>
+        <a class="me-3 py-2 text-dark text-decoration-none" href="#"></a>
+        <a class="me-3 py-2 text-dark text-decoration-none" href="#"></a>
+        <a class="py-2 text-dark text-decoration-none" href="#"></a>
+      </nav>
+    </div>
+
+
+  <main>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">My Role - UX Designer
+
+            </h4>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Improved the User Experience of the webpage and</li>
+              <li>I created the design system that you will see in this case study. </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Task
+
+            </h4>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Wireframe,User Research,</li>
+                </li>
+              <li>Design system, Prototype</li>
+             
+                <li>Analysist</li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Platform & Time
+
+            </h4>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Responsive website</li>
+              and
+              <li>4 weeks 
+              </li>
+              
+            </ul>
+         
+  </main>
+<section class="container1 text-bg-">
+  <div class="flex-item">
+    
+    <p>
+
+      <b>The Challenge: </b><p>
+Canadian Food Agency website is one of the most widely accessed website in Canada but it is lacking of user experience
+
+Page is outdated.  <p><b><p>
+
+The Solution:</b></p><p>
+
+Finding UI issues with user testing.
+
+Improving on or building new features in order to for the website.
+
+Converting web users to the app so the people can enjoy better user experience.</p>
+    </p>
+  </div>
+
+</section>
+<section class="container2"></section>
+  <div class="flex-tem2">
+    <br>
+
+<p>
+  <div class="media">
+    <div class="b-example-divider">Survey Result</div>
+    <br>
+ 
+    <img src="image/survey.png" width=1000px height="200px" class="mr-3" alt="...">
+    <div class="media-body">
+     <br>
+      I wanted to know
+
+      How many government website people know so far? -out  15 , only 4 responded  that they know CFIA
+      
+      How many people heard of Canadian food Agency?-out  100% , 66.7% responded, that they never heard of  CFIA
+      
+      Imagine if you want import/export food to Canada which website you choose?- There was a confusion between CFIA and Canada Border Service-28.6% user said they choose CFIA, 21.4% user said they go for Canada Border Services.</p>
+          </div>
+  </div>
+
+ 
+  </div>
+</section>
+<section>
+  <br>
+  
+<div class="media">
+  <div class="b-example-divider">Design Process</div>
+  <div class="flex-tem2"></section>
+
+</section>
+
+    <br>
+
+    <p>The design process carried out in this research is using the Design Thinking methodology.
+    </p>
+    <img src="image/Designprocess.png"width="980px" height="300px">
+    <br>
+
+</section>
+<br>
+<section>
+
+  <div class="media">
+    <div class="b-example-divider">Proto-persona</div>
+    <div class="flex-tem2"></section>
+  
+  </section>
+  
+      <br>
+  
+      <p>I create a proto-persona for the typical user of Canada Food Inspection Agency  so that I can understand  what are the main frustration that the user has when they use the website.
+      </p>
+      <img src="image/persona.png"width="980px" height="300px">
+      <br>
+  
+  </section>
+
+
+
+  <br>
+  <section>
+    <div class="media">
+      <div class="b-example-divider">User Persona & Customer journey map
+      </div>
+      <div class="flex-tem2"></section>
+    
+  
+    
+        <br>
+    
+        <p>Current user is a grocery store owner, which means she sells a variety of food items as well as other products. She would like to familiarize herself with the rules and regulations in Canada, when it comes to importing certain kinds of foods into Canada
+        </p>
+        <img src="image/journey.png"width="1000px" height="500px">
+        <br>
+    <p>
+</section>
+
+<br>
+  <section>
+    <div class="media">
+      <div class="b-example-divider">
+        Redesign a new sitemap using your card sorting results.
+      </div>
+      <div class="flex-tem2"></section>
+    
+  
+    
+        <br>
+    
+        <p>Based on the card sorting results, I created a new sitemap for the CFIA website The primary and secondary pages are defined in the site map.
+        </p>
+        <img src="image/sitemap.png"width="1000px" height="500px">
+        <br>
+    <p>
+</section>
+<br>
+  <section>
+    <div class="media">
+      <div class="b-example-divider">
+        Sketches of  Canadian Food Inspection Agency
+      </div>
+      <div class="flex-tem2"></section>
+    
+  
+    
+        <br>
+    
+        <p>Sketch -1 show quick drawing of homepage include logo, menu bar, search bar and primary and secondary navigations and footer
+          Sketch -2 show quick detailed version of of homepage include global ,Header,Footer nav ,Primary navigation Tabs,Secondary navigation-Heading details,Text,Body Text
+        </p>
+        <img src="image/sketch.png"width="1000px" height="500px">
+        <br>
+    <p>
+</section>
+
+<section>
+  <div class="media">
+    <div class="b-example-divider">
+      Redesign a new sitemap using your card sorting results.
+    </div>
+    <div class="flex-tem2"></section>
+  
+
+  
+      <br>
+  
+      </p>
+      <img src="image/wireframes.png" width="1000px" height="500px">
+      <br>
+  <p>
+</section>
+
+
+<section>
+  <div class="media">
+    <div class="b-example-divider">
+      Redesign a new sitemap using your card sorting results.
+    </div>
+    <div class="flex-tem2"></section>
+  
+
+  
+      <br>
+  
+      </p>
+      <img src="image/final design.png" width="500px" height="700px">
+      <br>
+  <p>
+</section>
+<section>
+  <div>
+    <div class="media">
+      <div class="b-example-divider">
+        My learnings
+
+      </div>
+    During the user testing phase the users were very helpful in pointing out design flaws like colours mobile, font size in the initial stage itself .That helped me create more user friendly design, including colour, grid and layout which align users needs.I have completed the screens for importing processed food to Canada and I would like to added more pages to 
+
+
+More informations to be added based on user demand.
+  </div>
+</section>
+  <p>
+  <p>
+
+  </p>
+  </footer>
+</div>
+
+
+    
+  </body>
+</html>
+
+
+            
+            <footer>
+            </footer>
+          </div>
+        </main>
+        
+    
 </body>
 </html>
